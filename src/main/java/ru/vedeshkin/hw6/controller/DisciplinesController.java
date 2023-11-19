@@ -4,11 +4,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ru.vedeshkin.hw6.entity.Discipline;
-import ru.vedeshkin.hw6.entity.Student;
 import ru.vedeshkin.hw6.model.Response;
 import ru.vedeshkin.hw6.model.ResponseCode;
 import ru.vedeshkin.hw6.service.DisciplineService;
-import ru.vedeshkin.hw6.service.StudentService;
 
 import java.util.List;
 
